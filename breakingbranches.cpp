@@ -3,13 +3,19 @@ using namespace std;
 
 int n;
 
-int main() {
+int main()
+{
   cin >> n;
-  if (n % 2 == 0) {
-    cout << "Alice" << "\n";
+  if (n % 2 == 0)
+  {
+    cout << "Alice"
+         << "\n";
     cout << 1 << "\n";
-  } else {
-    cout << "Bob" << "\n";
+  }
+  else
+  {
+    cout << "Bob"
+         << "\n";
   }
 }
 

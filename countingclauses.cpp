@@ -3,7 +3,8 @@ using namespace std;
 
 int m, n;
 
-int main() {
+int main()
+{
 	cin >> m >> n;
 	cout << (m >= 8 ? "satisfactory" : "unsatisfactory");
 }

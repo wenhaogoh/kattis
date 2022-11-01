@@ -5,16 +5,22 @@ using namespace std;
 int n, g, v;
 set<int> s;
 
-int main() {
+int main()
+{
   cin >> n;
-  for (int i = 1; i <= n; i++) {
+  for (int i = 1; i <= n; i++)
+  {
     s.clear();
     cin >> g;
-    for (int j = 0; j < g; j++) {
+    for (int j = 0; j < g; j++)
+    {
       cin >> v;
-      if (s.find(v) == s.end()) {
+      if (s.find(v) == s.end())
+      {
         s.insert(v);
-      } else {
+      }
+      else
+      {
         s.erase(v);
       }
     }

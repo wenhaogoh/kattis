@@ -4,15 +4,21 @@ using namespace std;
 
 int tc, a, b, p, q;
 
-int main() {
+int main()
+{
 	cin >> tc;
-	for (int i = 0; i < tc; i++) {
+	for (int i = 0; i < tc; i++)
+	{
 		cin >> a >> b;
 		vector<string> seq;
-		while (b != 1) {
-			if (b % 2 == 0) {
+		while (b != 1)
+		{
+			if (b % 2 == 0)
+			{
 				seq.push_back("l");
-			} else {
+			}
+			else
+			{
 				seq.push_back("r");
 				b -= 1;
 			}
@@ -20,10 +26,14 @@ int main() {
 		}
 		p = 1;
 		q = 1;
-		for (int i = seq.size() - 1; i >= 0; i--) {
-			if (seq[i] == "l") {
+		for (int i = seq.size() - 1; i >= 0; i--)
+		{
+			if (seq[i] == "l")
+			{
 				q = p + q;
-			} else {
+			}
+			else
+			{
 				p = p + q;
 			}
 		}

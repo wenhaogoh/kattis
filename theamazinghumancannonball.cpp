@@ -5,9 +5,11 @@ using namespace std;
 int tc;
 double v, a, x, h1, h2, t, vx, y;
 
-int main() {
+int main()
+{
     cin >> tc;
-    for (int i = 0; i < tc; i++) {
+    for (int i = 0; i < tc; i++)
+    {
         cin >> v >> a >> x >> h1 >> h2;
         // cos(theta) = adj/hyp
         vx = v * cos(a * 3.14159 / 180);

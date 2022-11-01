@@ -4,7 +4,8 @@ using namespace std;
 
 long long a;
 
-int main() {
+int main()
+{
   cin >> a;
   printf("%.16f", sqrt(a) * 4);
 }
