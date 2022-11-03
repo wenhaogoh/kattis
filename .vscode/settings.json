@@ -2,6 +2,22 @@
   "files.associations": {
     "iostream": "cpp",
     "ostream": "cpp",
-    "string_view": "cpp"
+    "string_view": "cpp",
+    "vector": "cpp",
+    "string": "cpp",
+    "iosfwd": "cpp",
+    "unordered_map": "cpp",
+    "istream": "cpp",
+    "iomanip": "cpp",
+    "initializer_list": "cpp",
+    "set": "cpp",
+    "memory": "cpp",
+    "utility": "cpp",
+    "__bit_reference": "cpp",
+    "__hash_table": "cpp",
+    "__string": "cpp",
+    "__tree": "cpp",
+    "algorithm": "cpp",
+    "*.tcc": "cpp"
   }
 }
